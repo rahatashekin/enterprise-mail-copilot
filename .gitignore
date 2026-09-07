@@ -1,0 +1,25 @@
+# Security & Private Credentials (NEVER commit to Git)
+.env
+config/
+*.pem
+
+# Business & Client Data (Confidential)
+data/
+attachments/
+*.xlsx
+*.csv
+*.pdf
+
+# Logs
+daemon.log
+*.log
+
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.idea/
+.vscode/
